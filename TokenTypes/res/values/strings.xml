@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_button">Login</string>
+    <string name="keyword_button">Get Keyword</string>
+    <string name="sendpic_button">Send to Server</string>
+    <string name="app_name">Token Types</string>
+</resources>
