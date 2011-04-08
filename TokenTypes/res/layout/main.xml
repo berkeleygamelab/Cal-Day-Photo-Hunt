@@ -12,14 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
     />
-    <Button 
-        android:id="@+id/keyword_button"
-        android:text="@string/keyword_button"
-        android:textSize="24sp"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-    />
+    <Button android:textSize="24sp" android:layout_height="wrap_content" android:id="@+id/keyword_button" android:layout_width="fill_parent" android:text="@string/keyword_button" android:layout_weight="1"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/register_button" android:text="@string/register_button"></Button>
     <Button 
         android:id="@+id/sendpic_button"
         android:text="@string/sendpic_button"

@@ -14,8 +14,12 @@ public class TokenTypes extends Activity {
     //private Button keywordButton;
     //private Button sendpicButton;
     
-    public static final String USERNAME_DEFAULT = "android_master_6502";
-    public static final String PASSWORD_DEFAULT = "whypotholes";
+    public static final String USERNAME_DEFAULT = "demo";
+    public static final String PASSWORD_DEFAULT = "demo";
+    
+	public static final String USERNAME = "Boomqueesha";
+	public static final String PASSWORD = "Johnson";
+	public static final String EMAIL = "boomqueesha@johnson.net";
     
     
     /** Called when the activity is first created. */
@@ -44,6 +48,14 @@ public class TokenTypes extends Activity {
             }
         });
         
+	    Button registerButton = (Button) findViewById(R.id.register_button);
+	       registerButton.setOnClickListener(new ImageView.OnClickListener() {
+
+	            public void onClick(View v) {
+	                register(USERNAME, PASSWORD, EMAIL);
+	            }
+	        });
+        
         Button sendpicButton = (Button) findViewById(R.id.sendpic_button);
         sendpicButton.setOnClickListener(new ImageView.OnClickListener() {
             @Override
@@ -64,7 +76,12 @@ public class TokenTypes extends Activity {
     }
     
     private void sendPic() {
-        String response = WebMessenger.sendPic();
+        String response = WebMessenger.sendPic(null, null, null, null);
         Log.d("talkWithServer - sendPic", "sendPic response: " + response);
+    }
+    
+    private void register(String username, String password, String email) {
+        String registerResult = WebMessenger.register(username, password, email);
+        Log.d("talkWithServer - register", "register response: " + registerResult);
     }
 }
