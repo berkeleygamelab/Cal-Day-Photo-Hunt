@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Misc -->
+    <string name="app_name">Cal Day Photo Hunt</string>
+    
+    <!-- TokenTypes.java -->
+    <string name="login_button">Login</string>
+    <string name="keyword_button">Get Keyword</string>
+    <string name="sendpic_button">Send to Server</string>
+    <string name="register_button">Register</string>
+    
+    <!-- gui.TitleScreen.java -->
+    <string name="title_windowtitle">Cal Day Photo Hunt!</string>
+    <string name="title_button_debug">Debug Action!</string>
+    <string name="title_button_login">Login</string>
+    <string name="title_button_register">Register</string>
+    <string name="title_button_credits">Credits</string>
+    
+    <!-- gui.LoginScreen.java -->
+    <string name="login_windowtitle">Login</string>
+    <string name="login_textview_username">Username</string>
+    <string name="login_edittext_username">Username</string>
+    <string name="login_textview_password">Password</string>
+    <string name="login_edittext_password">Password</string>
+    <string name="login_button_ok">OK!</string>
+    
+    <!-- gui.SelectPhotoMethodLayout.java -->
+    <string name="select_windowtitle">Picture Method Selection</string>
+    <string name="select_imagebutton_camera">Take a new picture.</string>
+    <string name="select_imagebutton_gallery">Select a picture from your gallery.</string>
+    
+    <!-- Register -->
+    <string name="register_windowtitle">Register as a New User</string>
+    <string name="register_textview_email">E-Mail</string>
+    <string name="register_edittext_email">E-Mail</string>
+    <string name="register_textview_username">Username</string>
+    <string name="register_edittext_username">Username</string>
+    <string name="register_textview_password">Password</string>
+    <string name="register_edittext_password">Password</string>
+    <string name="enter_valid_username">Please enter a valid username.</string>
+    <string name="enter_valid_password">Please enter a valid password.</string>
+    <string name="register_button_ok">OK!</string>
+    
+    <!-- photo.CameraPhoto -->
+    <string name="camera_windowtitle">Camera</string>
+    <string name="camera_imagebutton_takepicturebutton">Take Picture</string>
+    
+    <!-- Gallery View -->
+    <string name="gallery_windowtitle">Gallery</string>
+    
+    <!-- gui.SubmitScreen -->
+    <string name="submit_windowtitle">Submit Your Picture</string>
+    <string name="submit_textview_selectcatagory">Select a Catagory</string>
+    <string name="submit_textview_photopreview">Photo Preview</string>
+    <string name="submit_imageview_photopreview">Photo Preview</string>
+    <string name="submit_button_submitbutton">Submit Photo</string>
+    <string name="submit_button_cancelbutton">CANCEL</string>
+    
+    <!-- gui.Credits.java -->
+    <string name="credits_windowtitle">Credits</string>
+    <string name="credits_textview_creditstext">
+        \n
+        - Producers -\n
+        James Holston\n
+        Greg Niemeyer\n
+        \n
+        - Artwork -\n
+        Ann Beaver\n
+        Loring Scotty Hoag\n
+        Anna Vignet\n
+        \n
+        - Programming -\n
+        Loring Scotty Hoag\n
+        \n
+        - Feature Design and Testing -\n
+        James Holston\n
+        Greg Niemeyer\n
+        Ann Beaver\n
+        Pedro Cota\n
+        Jonathan Hirschberg\n
+        Loring Scotty Hoag\n
+        Lasse Juel Larsen\n
+        Anna Vignet\n
+        \n
+        \n
+        - Special Thanks -\n
+        \n
+        Eric Kaltman\n
+        Server maintainence and version control enforcer.\n
+        \n
+        Jesse Sanford\n
+        Extremely helpful web coding advice.\n
+        \n
+        Ann Beaver\n
+        Enthusiastic representative of PokerWalk at ArtPrize 2010.\n
+        \n
+        \n
+        ...And You!\n
+        Thanks for playing :)\n
+        \n
+        \n
+        \n
+        Check us out on the web at\n
+        www.pokerwalk.org\n
+        \n
+        \n
+    </string>
+    <string name="credits_textview_legaltext">
+        \n
+        Legalese\n
+        You have the right to arm bears.\n
+        ...with cameras.\n
+        \n
+    </string>
+    
+</resources>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+    <ImageView 
+        android:id="@+id/titlescreen_image"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:src="@drawable/title_screen">
+    </ImageView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        
+        <Button 
+            android:id="@+id/title_button_debug"
+            android:text="@string/title_button_debug"
+            android:textSize="24sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+        />
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            <Button 
+                android:id="@+id/title_button_login"
+                android:text="@string/title_button_login"
+                android:textSize="24sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+            />
+            <Button 
+                android:id="@+id/title_button_register"
+                android:text="@string/title_button_register"
+                android:textSize="24sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+            />
+        </LinearLayout>
+        
+        <Button 
+            android:id="@+id/title_button_credits"
+            android:text="@string/title_button_credits"
+            android:textSize="24sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+        />
+    </LinearLayout>
+    
+</RelativeLayout>

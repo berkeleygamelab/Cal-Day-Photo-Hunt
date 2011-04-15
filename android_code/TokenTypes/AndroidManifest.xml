@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.urban_detection.tokentypes"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- Request use of the camera, but don't require autofocus. -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    
+    
+    <application 
+        android:icon="@drawable/icon" 
+        android:label="@string/app_name"
+        >
+        
+        <!-- Title Screen -->
+        <activity
+            android:name=".gui.TitleScreen"
+            android:label="@string/title_windowtitle"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" 
+            >
+            
+            <intent-filter>
+                <action   android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Credits Screen -->
+        <activity 
+            android:name=".gui.Credits"
+            android:label="@string/credits_windowtitle"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+        />
+        
+        <!-- Test Activity -->
+        <activity 
+            android:name=".TokenTypes"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+        />
+        
+        <!-- Login Screen -->
+        <activity 
+            android:name=".gui.LoginScreen"
+            android:label="@string/login_windowtitle"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+        />
+        
+        <!-- Select Photo Method Menu -->
+        <activity 
+            android:name=".gui.SelectPhotoMethod"
+            android:label="@string/select_windowtitle"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+        />
+        
+        <!-- Camera -->
+        <activity 
+            android:name=".photo.CameraPhoto"
+            android:label="@string/camera_windowtitle"
+            android:screenOrientation="landscape" 
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout" >
+        </activity>
+        
+        <!-- Submit Screen -->
+        <activity 
+            android:name=".gui.SubmitScreen"
+            android:label="@string/submit_windowtitle"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+        />
+        
+    </application>
+    
+</manifest>
